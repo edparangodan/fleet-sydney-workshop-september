@@ -29,14 +29,11 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/macos/scripts/set-wallpaper.ps1
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
     enable_host_users: true
     enable_software_inventory: true
-software:
-ipados_updates:
-  deadline: 2025-09-30
-  minimum_version: 18.5
-  
+software:  
